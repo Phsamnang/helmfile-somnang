@@ -1,0 +1,10 @@
+react:
+  name: react2
+  replicaCount: 1
+  container:
+    image: kimheang68/ui-hw5:v1
+    port: 80
+  service:
+    type: NodePort
+    port: 3000
+    nodePort: 30011

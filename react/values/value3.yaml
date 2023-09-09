@@ -1,0 +1,10 @@
+react:
+  name: react3
+  replicaCount: 1
+  container:
+    image: skymapled/portfolio
+    port: 80
+  service:
+    type: NodePort
+    port: 3000
+    nodePort: 30012

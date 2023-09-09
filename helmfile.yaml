@@ -1,0 +1,16 @@
+releases:
+- name: react1
+  chart: ./react
+  values:
+  - ./react/values/value1.yaml
+  installed: true
+- name: react2
+  chart: ./react
+  values:
+  - ./react/values/value2.yaml
+  installed: true
+- name: react3
+  chart: ./react
+  values:
+  - ./react/values/value3.yaml
+  installed: true
